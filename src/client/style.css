@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.app {
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+.sprint-name {
+  font-size: 1.5rem;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.task-column {
+  width: 20%;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.task-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.task-name {
+  font-weight: bold;
+}
+
+.task-details {
+  display: flex;
+  justify-content: space-between;
+}

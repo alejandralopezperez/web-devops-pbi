@@ -1,13 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sprint Overview</title>
+    <link rel="stylesheet" href="/src/client/index.css">
+</head>
+<body>
+    <h1 id="project-title">Project Name</h1>
+    <h2 id="sprint-title">Sprint Name</h2>
+    <div class="task-columns">
+        <div class="task-column" id="todo-column">
+            <h3>To Do</h3>
+        </div>
+        <div class="task-column" id="inprogress-column">
+            <h3>In Progress</h3>
+        </div>
+        <div class="task-column" id="test-column">
+            <h3>Test</h3>
+        </div>
+        <div class="task-column" id="done-column">
+            <h3>Done</h3>
+        </div>
+    </div>
+
+    <!-- Load the main.tsx file -->
+    <script type="module" src="/src/client/main.tsx"></script>
+</body>
 </html>
